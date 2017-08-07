@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+   <title>Bootstrap 实例 - 缩写</title>
+   <link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+   <script src="http://cdn.static.runoob.com/libs/jquery/2.0.0/jquery.min.js"></script>
+   <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<abbr title="World Wide Web">WWW</abbr><br>
+<abbr title="Real Simple Syndication" class="initialism">RSS</abbr>
+
+
+<address>
+	<strong>Some Company, Inc.</strong><br>
+	007 street<br>
+	Some City, State XXXXX<br>
+	<abbr title="Phone">P:</abbr> (123) 456-7890
+</address>
+<address>
+	<strong>Full Name</strong><br>
+	<a href="mailto:#">mailto@somedomain.com</a>
+</address>
+
+<div class="container" >
+	<h2>排版</h2>
+	<p>设置 pre 元素可滚动：</p>
+	<pre class="pre-scrollable"style="height:100px">
+		内容可滚动
+		Text in a pre element
+		is displayed in a fixed-width
+		font, and it preserves
+		both      spaces and
+		line breaks.
+		Text in a pre element
+		is displayed in a fixed-width
+		font, and it preserves
+		both      spaces and
+		line breaks.
+	</pre>
+	<div>
+	<form role="form">
+	<div class="form-group">
+		<label for="name">名称</label>
+		<input type="text" class="form-control" id="name" 
+			   placeholder="请输入名称">
+	</div>
+	<div class="form-group">
+		<label for="inputfile">文件输入</label>
+		<input type="file" id="inputfile">
+		<p class="help-block">这里是块级帮助文本的实例。</p>
+	</div>
+	<div class="checkbox_chenzk">
+		<label>
+			<input type="checkbox"> 请打勾
+		</label>
+	</div>
+	<button type="submit" class="btn btn-default">提交</button>
+</form>
+	</div>
+	
+	<form class="form-horizontal" role="form">
+	<div class="form-group">
+		<label class="col-sm-2 control-label">聚焦</label>
+		<div class="col-sm-10">
+			<input class="form-control" id="focusedInput" type="text"  value="该输入框获得焦点...">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="inputPassword" class="col-sm-2 control-label">
+			禁用
+		</label>
+		<div class="col-sm-10">
+			<input class="form-control" id="disabledInput" type="text" placeholder="该输入框禁止输入..." disabled>
+		</div>
+	</div>
+	
+	
+	
+	<fieldset disabled>
+		<div class="form-group">
+			<label for="disabledTextInput"  class="col-sm-2 control-label">禁用输入（Fieldset disabled）
+			</label>
+			<div class="col-sm-10">
+				<input type="text" id="disabledTextInput" class="form-control"  placeholder="禁止输入">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="disabledSelect"  class="col-sm-2 control-label">禁用选择菜单（Fieldset disabled）
+			</label>
+			<div class="col-sm-10">
+				<select id="disabledSelect" class="form-control">
+					<option>禁止选择</option>
+				</select>
+			</div>
+		</div>
+	</fieldset>
+	
+	
+	<div class="form-group has-success">
+		<label class="col-sm-2 control-label" for="inputSuccess">
+			输入成功
+		</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="inputSuccess">
+		</div>
+	</div>
+	<div class="form-group has-warning">
+		<label class="col-sm-2 control-label" for="inputWarning">
+			输入警告
+		</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="inputWarning">
+		</div>
+	</div>
+	<div class="form-group has-error">
+		<label class="col-sm-2 control-label" for="inputError">
+			输入错误
+		</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="inputError">
+		</div>
+	</div>
+	
+	<div class="container">
+	<h2>图片</h2>
+	<p> .img-responsive类让图片支持响应式，将很好地扩展到父元素 (通过改变窗口大小查看效果):</p>                  
+	<img src="images/xiangyingshi.jpg" class="img-responsive" alt="Cinque Terre">
+</div>
+</form>
+
+</div>
+</body>
+</html>
